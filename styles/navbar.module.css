@@ -1,0 +1,233 @@
+.navdiv{
+    background-color:#111727 ;
+    height: 140vh;
+    width: 130%;
+    
+
+    
+}
+.mainLogo{
+    padding: 20px;
+    padding-left: 20px;
+    text-align: center;
+    font-size: 30px;
+    /* border-top: 3px linear-gradient(87deg rgb(199,29,67) 0%, rgb(35,78,159) 100%) ; */
+    border-top: 3px solid palevioletred;
+    width: 70%;
+    margin-left: 21px;
+   
+    /* background: linear-gradient(to bottom, rgb(123, 8, 255, 0.9), rgb(123, 8, 255, 0.87)); */
+    
+    
+     /* background-image: -moz-linear-gradient( 87deg, rgb(199,29,67) 0%, rgb(35,78,159) 100%);
+        background-image: -webkit-linear-gradient( 87deg, rgb(199,29,67) 0%, rgb(35,78,159) 100%);
+        background-image: -ms-linear-gradient( 87deg, rgb(199,29,67) 0%, rgb(35,78,159) 100%);
+        position: absolute;
+        left: 65px;
+        top: 0px;
+        width: 207px;
+        height: 6px;
+        z-index: 83; */
+}
+.menu h5{
+    color: #273149;
+    border-bottom:2px solid #273149;
+    width: 22%;
+    margin-left: 40px;
+    margin-top: 25px;
+}
+.menu ul li
+{
+    border-bottom: 1px solid #273149 ;
+    padding:15px ;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    text-decoration: none;
+    list-style: none;
+    width: 80%;
+     
+}
+.sidelogos{
+    margin-right: 10px;
+    margin-left: -10px;
+    color: #273149;
+
+}
+.linkk{
+    color: #273149;
+    text-decoration: none;
+}
+.linkk:hover{
+    text-decoration: none;
+    background-image: linear-gradient( 87deg, rgb(199,29,67) 0%, rgb(35,78,159) 100%);
+
+}
+
+.sidelogos:hover{
+    background-image: linear-gradient( 87deg, rgb(199,29,67) 0%, rgb(35,78,159) 100%);
+
+}
+/* .slogos:hover{
+    color: rgba(255,255,255,.54);
+    animation: Gradient 1s ease infinite;
+    box-shadow: 0 0 1px rgba(255,255,255,0.54); 
+     background: linear-gradient(to right,#00bcd4 0%,#2196f3 100%);
+} */
+.question{
+    display: flex;
+    justify-content: space-evenly;
+    padding:25px ;
+    margin-top: 30px;
+    width: 95%;
+    color: #273149;
+}
+
+.question span{
+    border-bottom: 1px solid  #273149 ;
+}
+.question:hover{
+    color: white;
+}
+@media only screen and (max-width:1024px) {
+    .navdiv{
+        width: 50%;
+    }
+    .linkk {
+    opacity: 0;
+   
+   }
+     .menu h5{
+        opacity: 0;
+
+    }
+    .question h6{
+        opacity: 0;
+    }
+    .logo{
+        opacity: 0;
+    
+    }
+    .mainLogo{
+        background-image: url('../assets/playicon.png');
+        background-size: cover;
+        width: 59%;
+        height: 5%;
+        
+    }
+
+    
+ }
+
+
+    
+@media only screen and (max-width:820px) {
+    .navdiv{
+        width: 50%;
+    }
+    .linkk {
+    opacity: 0;
+   
+   }
+     .menu h5{
+        opacity: 0;
+
+    }
+    .question h6{
+        opacity: 0;
+    }
+    .logo{
+        opacity: 0;
+    
+    }
+    .mainLogo{
+        background-image: url('../assets/playicon.png');
+        background-size: cover;
+        width: 59%;
+        height: 5%;
+        
+    }
+
+    
+ }
+ @media only screen and (max-width:480px) {
+    .navdiv{
+        width: 30%;
+    }
+    .linkk {
+    opacity: 0;
+   
+   }
+     .menu h5{
+        opacity: 0;
+
+    }
+    .question h6{
+        opacity: 0;
+    }
+    .sidelogos{
+        position: relative;
+        right: 20px;
+
+    }
+    .menu ul li{
+        border-bottom: 0px solid white;
+    }
+    .logo{
+        opacity: 0;
+    
+    }
+    .mainLogo{
+        background-image: url('../assets/playicon.png');
+        background-size: cover;
+        width: 48%;
+        height: 3%;
+        position: relative;
+        right: 5px;
+        
+        
+    }
+
+    
+ }
+ @media only screen and (max-width:380px) {
+    .navdiv{
+        width: 30%;
+    }
+    .linkk {
+    opacity: 0;
+   
+   }
+     .menu h5{
+        opacity: 0;
+
+    }
+    .question h6{
+        opacity: 0;
+    }
+    .sidelogos{
+        position: relative;
+        right: 20px;
+
+    }
+    .menu ul li{
+        border-bottom: 0px solid white;
+    }
+    .logo{
+        opacity: 0;
+    
+    }
+    .mainLogo{
+        background-image: url('../assets/playicon.png');
+        background-size: cover;
+        width: 48%;
+        height: 3%;
+        position: relative;
+        right: 5px;
+        
+        
+    }
+
+    
+ }
+ 

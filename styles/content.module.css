@@ -1,0 +1,483 @@
+/* .topbar h5{
+color: white;
+text-align: center;
+float: right;
+width: 100%;
+padding:8px ;
+background-color: #bc2049;
+
+
+}
+.topbar{
+    position:relative;
+    width: 440%;
+    float: left;
+    margin-left: -22px;
+    
+}
+.backgroundImage{
+    /* background-image: url('../assets/title.png'); */
+
+
+/* ====================old css=================== */
+
+
+.conContainer{
+    height: 40px;
+    width: 100%;
+    margin-left: 60px;
+     background-color: #bc2049;
+     position: relative;
+ }
+ 
+ .conContainer h5{
+     color: white;
+     text-align: center;
+     float: right;
+     width: 100%;
+     padding-top:5px ;
+ 
+ }
+
+ 
+ .search_box{
+  width: 50%;
+  height: 40px;
+  margin: 20px  ;
+  margin-left: 50px;
+  background: none;
+  border-radius: 25px;
+  border-color: white;
+  padding:23px ;
+ 
+ }
+ .search_box::placeholder{
+     padding: 30px;
+ }
+ 
+ .backgroundImage{
+      background-image: url('../assets/topbannr.png');
+      background-repeat:no-repeat ;
+      /* object-fit: cover; */
+      height: 98vh;
+      margin-top: 3px;
+      width: 100%;
+      position: absolute;
+      right: 2px;
+      background-size: cover;
+      
+      /* background-attachment: fixed; */
+      /* box-shadow: 3px 0px 0px 0px rgba(12, 0, 0, 0.75);  */
+}
+.Arrowleft{
+    position: relative;
+    left: -25px;
+    bottom: 38px;
+}
+.Arrowleft:hover{
+    filter: drop-shadow(0px 0px 7px rgb(247, 247, 247));
+   
+}
+ .searchIcon{
+     position: absolute;
+     left: 102px;
+     margin-top: 24px;
+ }
+ .notificationIcon{
+ position: absolute;
+ top: 35px;
+ right: 450px;
+ 
+ }
+ .backgroundImage p{
+     position: absolute;
+     color: white;
+     right:  350px;
+     top: 35px;
+     border-bottom:1px solid white ;
+ }
+ .harold{
+     position: absolute;
+     right:  270px;
+     top: 20px;
+ 
+ }
+ .dropdown{
+     position: absolute;
+     right:  240px;
+     top: 50px;
+ 
+ }
+ .Heading{
+   position:absolute;
+   top: 600px;
+   margin-left: 50px;
+   width: 100%;
+   height: 100%;
+ }
+ .Heading h1{
+     position:absolute;
+     top: 80px;
+     color:white;
+     width: 100%;
+ }
+ /* .know{
+     position:absolute;
+     top: 600px;
+     margin-left: 50px;
+     color:white
+ }
+  */
+  .Heading span{
+     font-size: 12px;
+  }
+  .Heading h6{
+     width: 43%;
+     font-weight: 400;
+     margin-top: 10px;
+  }
+  .play{
+    position: relative;
+    top: 200px;
+    right: 10px;
+
+}
+.playpart{
+    display: flex;
+    align-items: center;
+    
+}
+.playpart h6{
+    position: relative;
+    top: 200px;
+    color: white;
+    
+}
+.below h1{
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+
+.Inspired{
+    position: relative;
+    top: 260px;
+    color: white;
+    font-size: 16px;
+    border-bottom: 1px solid #273149;
+    padding: 15px ;
+    width: 85%;
+}
+.Inspired span{
+    font-size: 16px;
+    color: #2d4790;
+    font-weight: bold;
+    
+}
+.HotNews{
+    position: relative;
+    top: 360px;
+    color: white;
+    font-size: 16px;
+    border-bottom: 1px solid #273149;
+    padding: 15px ;
+    width: 85%;
+}
+.HotNews span{
+    font-size: 16px;
+    color: #2d4790;
+    font-weight: bold;
+    
+}
+.secondcarosel{
+    position: relative;
+    top: 100px;
+}
+.PopularArtist{
+    position: relative;
+    top: 440px;
+    color: white;
+    font-size: 16px;
+    border-bottom: 1px solid #273149;
+    padding: 15px ;
+    width: 85%;
+    
+   
+}
+.PopularArtist span{
+    font-size: 16px;
+    color: #2d4790;
+    font-weight: bold;
+    
+}
+.dropdown button{
+    /* display: flex; */
+    
+    position: relative;
+    bottom: 50px;
+    margin: 10px;
+    border-radius: 20px;
+    font-size: 18px;
+    background-color: #070c16;
+    border-color: #070c16;
+    color:#3a465e
+    
+}
+.thirdslider{
+    position: relative;
+    top:460px
+}
+.bottompart{
+    position: relative;
+    top: 10px;
+    background-color: white;
+    color: antiquewhite;
+    width: 150%;
+    height: 100%;
+}
+
+@media only screen and (max-width:1366px) {
+    .notificationIcon{
+        position: absolute;
+        top: 35px;
+        right: 250px;
+    }
+    .backgroundImage p{
+        position: absolute;
+        color: white;
+        right:  150px;
+        top: 35px;
+        border-bottom:1px solid white ;
+
+    }
+    .harold{
+        position: absolute;
+        right:  80px;
+        top: 20px;
+    
+    }
+    .dropdown{
+        position: absolute;
+        right:  50px;
+        top: 50px;
+    
+    }
+    .backgroundImage{
+        background-image: url('../assets/topbannr.png');
+        background-repeat:no-repeat ;
+        /* object-fit: cover; */
+        height: 98vh;
+        margin-top: 3px;
+        width: 100%;
+        position: absolute;
+        right: 2px;
+        background-size: contain;
+    }
+ }
+ @media only screen and (max-width:1366px) {
+    .notificationIcon{
+        position: absolute;
+        top: 35px;
+        right: 250px;
+    }
+    .backgroundImage p{
+        position: absolute;
+        color: white;
+        right:  150px;
+        top: 35px;
+        border-bottom:1px solid white ;
+
+    }
+    .harold{
+        position: absolute;
+        right:  80px;
+        top: 20px;
+    
+    }
+    .dropdown{
+        position: absolute;
+        right:  50px;
+        top: 50px;
+    
+    }
+    .backgroundImage{
+        background-image: url('../assets/topbannr.png');
+        background-repeat:no-repeat ;
+        /* object-fit: cover; */
+        height: 98vh;
+        margin-top: 3px;
+        width: 128%;
+        position: absolute;
+        right: 2px;
+        background-size: contain;
+    }
+ }
+ @media only screen and (max-width:1024px) {
+    .notificationIcon{
+        position: absolute;
+        top: 35px;
+        right: 250px;
+    }
+    .backgroundImage p{
+        position: absolute;
+        color: white;
+        right:  150px;
+        top: 35px;
+        border-bottom:1px solid white ;
+
+    }
+    .harold{
+        position: absolute;
+        right:  80px;
+        top: 20px;
+    
+    }
+    .dropdown{
+        position: absolute;
+        right:  50px;
+        top: 50px;
+    
+    }
+    .backgroundImage{
+        background-image: url('../assets/topbannr.png');
+        background-repeat:no-repeat ;
+        /* object-fit: cover; */
+        height: 98vh;
+        margin-top: 3px;
+        width: 120.5%;
+        position: absolute;
+        right: 2px;
+        background-size: contain;
+    }
+    .Arrowleft{
+    opacity: 0;
+    }
+  
+ }
+ @media only screen and (max-width:820px) {
+    .notificationIcon{
+        position: absolute;
+        top: 35px;
+        right: 210px;
+    }
+    .backgroundImage p{
+        position: absolute;
+        color: white;
+        right:  120px;
+        top: 35px;
+        border-bottom:1px solid white ;
+
+    }
+    .harold{
+        position: absolute;
+        right:  50px;
+        top: 20px;
+    
+    }
+    .dropdown{
+        position: absolute;
+        right:  30px;
+        top: 50px;
+    
+    }
+    .backgroundImage{
+        background-image: url('../assets/topbannr.png');
+        background-repeat:no-repeat ;
+        /* object-fit: cover; */
+        height: 98vh;
+        margin-top: 3px;
+        width: 128%;
+        position: absolute;
+        right: 2px;
+        background-size: contain;
+    }
+    .Arrowleft{
+    opacity: 0;
+    }
+    .search_box{
+        width: 40%;
+        height: 40px;
+        margin: 20px  ;
+        margin-left: 0px;
+        background: none;
+        border-radius: 25px;
+        border-color: white;
+        padding:23px ;
+       
+       }
+       .searchIcon{
+        position: absolute;
+        left: 52px;
+        margin-top: 24px;
+    }
+  
+ }
+ 
+ @media only screen and (max-width:420px) {
+    .notificationIcon{
+        position: absolute;
+        top: 35px;
+        right: 210px;
+    }
+    .backgroundImage p{
+        position: absolute;
+        color: white;
+        right:  120px;
+        top: 35px;
+        border-bottom:1px solid white ;
+
+    }
+    .harold{
+        position: absolute;
+        right:  50px;
+        top: 20px;
+    
+    }
+    .dropdown{
+        position: absolute;
+        right:  30px;
+        top: 50px;
+    
+    }
+    .backgroundImage{
+        background-image: url('../assets/topbannr.png');
+        background-repeat:no-repeat ;
+        /* object-fit: cover; */
+        height: 98vh;
+        margin-top: 3px;
+        width: 221.5%;
+        position: absolute;
+        right: 2px;
+        background-size: contain;
+    }
+    .Arrowleft{
+    opacity: 0;
+    }
+    .search_box{
+        width: 40%;
+        height: 40px;
+        margin: 20px  ;
+        margin-left: 0px;
+        background: none;
+        border-radius: 25px;
+        border-color: white;
+        padding:23px ;
+       
+       }
+       .searchIcon{
+        position: absolute;
+        left: 52px;
+        margin-top: 24px;
+    }
+    .conContainer h5{
+        color: white;
+        text-align: center;
+        float: right;
+        width: 100%;
+        padding-top:5px ;
+        font-size: 11px;
+    
+    }
+  
+ }
+ 

@@ -1,0 +1,24 @@
+/* .container{
+    background-color: #0b1220;
+    height: 100vh;
+    overflow-x: hidden;
+} */
+.Container {
+    background-color: #0b1220;
+    height: 100vh;
+    overflow-x: hidden;
+    /* display: flex; */
+}
+.nav{
+   display: flex;
+    
+}
+.foter{
+    position: relative;
+    top: 165vh;
+}
+
+/* .Container{
+    display: flex;
+    background-color: #0b1220;
+} */
